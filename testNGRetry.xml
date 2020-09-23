@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Suite" parallel="classes" thread-count="2">
+
+    <listeners>
+      <listener class-name="retryTestNG.AnnotationTransformer"/>
+  </listeners>
+
+    <test name="TestName">
+        <classes>
+
+             <class name="testNgPkg.RetryTest"/>
+
+        </classes>
+    </test>
+</suite>

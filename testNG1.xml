@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Suite2">
+    <test name="TestName2">
+        <classes>
+            <!-- <class name="testNgPkg.TestNG"/>
+             <class name="testNgPkg.TestNg2"/>-->
+            <!--<parameter name="user" value="abc"/>
+            <parameter name="pass" value="pass1"/>-->
+            <class name="testNgPkg.TestNG1">
+                <methods>
+                <!--<exclude name= "e"/>-->
+                <include name= "login1"/>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

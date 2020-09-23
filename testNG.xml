@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Test Suite" parallel="classes" thread-count="2">
+    <test name="TestName">
+        <classes>
+           <!-- <class name="testNgPkg.TestNG"/>
+            <class name="testNgPkg.TestNg2"/>
+            <class name="testNgPkg.TestNG"/>
+            <class name="testNgPkg.RetryTest"/>-->
+            <class name="testNgPkg.TestNG1">
+        <methods>
+          <include name="softAssert"/>
+          <include name="hardAssert"/>
+          <include name="c"/>
+          <include name="d"/>
+          <include name="b"/>
+        </methods>
+      </class>
+
+        </classes>
+    </test>
+</suite>
